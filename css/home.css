@@ -1,7 +1,8 @@
 :root
 {
-    --Cyan1: #3BBA9C;
-    --Cyan2: #388087;
+    --Cyan1: #f2fffd;
+    --Cyan2: #3BBA9C;
+    --Cyan3: #388087;
     --Grey1: #707793;
     --Grey2: #43455c;
     --Grey3: #3C3F58;
@@ -14,5 +15,5 @@
 }
 .kop1
 {
-    color: var(--Cyan1);
+    color: var(--Cyan2);
 }

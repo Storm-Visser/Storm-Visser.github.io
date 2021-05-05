@@ -1,3 +1,12 @@
+:root
+{
+    --Cyan1: #3BBA9C;
+    --Cyan2: #388087;
+    --Grey1: #707793;
+    --Grey2: #43455c;
+    --Grey3: #3C3F58;
+    --Grey4: #2E3047;
+}
 *
 {
     margin: 0;
@@ -5,5 +14,5 @@
 }
 .kop1
 {
-    color: green;
+    color: var(--Cyan1);
 }

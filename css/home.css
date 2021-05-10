@@ -41,8 +41,8 @@ body {
 
 .navbar-nav li a:hover,
 .navbar-nav li.active a {
-    color: var(--High1) !important;
-    background-color: var(--Low2) !important;
+    color: var(--Low2) !important;
+    background-color: var(--High1) !important;
 }
 
 .navbar-default .navbar-toggle {

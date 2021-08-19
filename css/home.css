@@ -28,10 +28,10 @@ body {
 
 .navbar {
     background: linear-gradient(90deg, var(--High2) 35%, var(--High1) 65%, var(--High2) 100%);
-    font-size: 13px !important;
+    font-size: 1.4vh !important;
     font-weight: bold;
-    letter-spacing: 2px;
-    border: 0;
+    letter-spacing: 5px;
+    border: 0px;
 }
 
 .navbar li a,
@@ -42,56 +42,83 @@ body {
 .navbar-nav li a:hover,
 .navbar-nav li.active a {
     color: var(--High1) !important;
-    background-color: var(--Back2) !important;
+    background: var(--Back2) !important;
 }
 
 .navbar-default .navbar-toggle {
     border-color: transparent;
-    color: var(--High2) !important;
+    color: var(--Back2) !important;
+    background-color: var(--High2) !important;
 }
 
 
 /* style for the welcome element*/
 
-.welcometext {
-    color: var(--High2);
-    font-size: 50px !important;
-}
-
-.name {
-    padding-left: 5%;
-    color: var(--High1) !important;
-    font-size: 200px;
-}
-
 .welcome {
-    background-color: var(--Back2);
+    background-image: url("../Img/WelcomeFoto2.jpg");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
 }
 
 .welcomeblock {
-    margin-top: 30px
+    margin-top: 18vh;
+    background-color: var(--Back2);
+    height: 75vh;
 }
 
 .proffoto {
     max-width: 100%;
-    height: 350px;
-    margin: 3%;
-    border: 5px solid var(--High2)
+    height: 50vh;
+    border: 0.5vh solid var(--High2);
+    margin-top: 4%;
+    margin-right: 15%;
+    float: right;
 }
 
 .infoTable {
-    font-family: Arial, Helvetica, sans-serif;
-    width: 60%;
+    font-family: Helvetica, sans-serif;
+    width: 80%;
     color: white;
-    margin-top: 60px;
+    margin-top: 5vh;
+    font-size: 3vh;
+    margin-left: 5vh;
 }
 
 .infoTable td {
-    border-bottom: 2px solid var(--High2);
+    border-bottom: 3px solid var(--High3);
     padding: 8px 8px 0px 15px;
 }
 
 .infoTable .high {
-    color: var(--High1);
+    color: var(--High2);
     font-weight: bold;
+}
+
+.infoTable .low {
+    color: lightgray;
+    font-style: italic;
+}
+
+.welcometext {
+    color: var(--High2);
+    font-size: 5vh !important;
+}
+
+.welcometext1 {
+    padding-top: 6vh;
+}
+
+.welcometext2 {
+    padding-top: 1vh;
+    color: var(--High3);
+    font-size: 3vh !important;
+    font-style: italic;
+}
+
+.name {
+    padding-left: 3%;
+    color: var(--High1) !important;
+    font-size: 15vh;
 }

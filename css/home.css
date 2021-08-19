@@ -65,25 +65,25 @@ body {
 .welcomeblock {
     margin-top: 18vh;
     background-color: var(--Back2);
-    height: 75vh;
+}
+
+.welcomeTable {
+    background-color: var(--Back2);
 }
 
 .proffoto {
-    max-width: 100%;
-    height: 50vh;
+    width: 100%;
     border: 0.5vh solid var(--High2);
-    margin-top: 4%;
-    margin-right: 15%;
-    float: right;
+    margin-top: 15%;
 }
 
 .infoTable {
     font-family: Helvetica, sans-serif;
-    width: 80%;
+    width: 100%;
     color: white;
     margin-top: 5vh;
     font-size: 3vh;
-    margin-left: 5vh;
+    margin-bottom: 8vh;
 }
 
 .infoTable td {
@@ -118,7 +118,6 @@ body {
 }
 
 .name {
-    padding-left: 3%;
     color: var(--High1) !important;
     font-size: 15vh;
 }

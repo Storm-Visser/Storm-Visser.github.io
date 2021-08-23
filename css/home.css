@@ -32,11 +32,12 @@ body {
     font-weight: bold;
     letter-spacing: 5px;
     border: 0px;
+    color: var(--Back3)
 }
 
 .navbar li a,
 .navbar {
-    color: var(--LHigh2) !important;
+    color: var(--Back2) !important;
 }
 
 .navbar-nav li a:hover,
@@ -82,7 +83,7 @@ body {
     width: 100%;
     color: white;
     margin-top: 5vh;
-    font-size: 3vh;
+    font-size: 2vh;
     margin-bottom: 8vh;
 }
 

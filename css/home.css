@@ -19,40 +19,41 @@ body {
     background-color: var(--Back3);
 }
 
-.container-fluid {
-    padding: 50px 50px;
-}
-
 
 /* style for the navigation bar */
 
 .navbar {
-    background: linear-gradient(90deg, var(--High2) 35%, var(--High1) 65%, var(--High2) 100%);
-    font-size: 1.3vh !important;
+    background: linear-gradient(90deg, var(--High2) 20%, var(--High1) 65%, var(--High2) 100%);
+    font-size: 1.4vh !important;
     font-weight: bold;
-    letter-spacing: 0.7vh;
+    letter-spacing: 0.9vh;
     border: 0px transparent;
-    color: var(--Back3)
+    color: var(--Back2);
+    padding-right: 30vh;
+}
+
+.navbar-collapse {
+    border: 0px;
 }
 
 .navbar li a,
 .navbar {
-    color: var(--Back3) !important;
+    color: var(--Back2) !important;
 }
 
 .navbar-nav li a:hover,
 .navbar-nav li.active a {
     color: var(--High1) !important;
-    background: var(--Back3) !important;
+    background: var(--Back2) !important;
 }
 
-.navbar-default .navbar-toggle {
+.navbar-expand-lg .navbar-toggle {
     border-color: transparent;
     background-color: transparent;
     color: var(--High1) !important;
 }
 
-.navbar-default .navbar-toggle:hover {
+.navbar-expand-lg .navbar-toggle:hover {
     background-color: var(--Back3);
     color: var(--High1);
 }

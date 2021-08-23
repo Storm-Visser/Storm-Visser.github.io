@@ -29,7 +29,6 @@ body {
     letter-spacing: 0.9vh;
     border: 0px transparent;
     color: var(--Back2);
-    padding-right: 30vh;
 }
 
 .navbar-collapse {
@@ -39,6 +38,11 @@ body {
 .navbar li a,
 .navbar {
     color: var(--Back2) !important;
+    height: 5vh;
+}
+
+.navbar li a {
+    padding-top: 1.7vh;
 }
 
 .navbar-nav li a:hover,
@@ -70,7 +74,7 @@ body {
 }
 
 .welcomeblock {
-    margin-top: 18vh;
+    margin-top: 22vh;
     background-color: var(--Back2);
 }
 
@@ -90,7 +94,7 @@ body {
     color: white;
     margin-top: 5vh;
     font-size: 2vh;
-    margin-bottom: 8vh;
+    margin-bottom: 5vh;
 }
 
 .infoTable td {

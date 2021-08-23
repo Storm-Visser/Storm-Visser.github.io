@@ -38,11 +38,10 @@ body {
 .navbar li a,
 .navbar {
     color: var(--Back2) !important;
-    height: 5vh;
 }
 
 .navbar li a {
-    padding-top: 1.7vh;
+    padding: 1.7vh;
 }
 
 .navbar-nav li a:hover,

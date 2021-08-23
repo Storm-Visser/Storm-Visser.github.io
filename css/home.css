@@ -28,28 +28,33 @@ body {
 
 .navbar {
     background: linear-gradient(90deg, var(--High2) 35%, var(--High1) 65%, var(--High2) 100%);
-    font-size: 1.4vh !important;
+    font-size: 1.3vh !important;
     font-weight: bold;
-    letter-spacing: 5px;
-    border: 0px;
+    letter-spacing: 0.7vh;
+    border: 0px transparent;
     color: var(--Back3)
 }
 
 .navbar li a,
 .navbar {
-    color: var(--Back2) !important;
+    color: var(--Back3) !important;
 }
 
 .navbar-nav li a:hover,
 .navbar-nav li.active a {
     color: var(--High1) !important;
-    background: var(--Back2) !important;
+    background: var(--Back3) !important;
 }
 
 .navbar-default .navbar-toggle {
     border-color: transparent;
-    color: var(--Back2) !important;
-    background-color: var(--High2) !important;
+    background-color: transparent;
+    color: var(--High1) !important;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: var(--Back3);
+    color: var(--High1);
 }
 
 
